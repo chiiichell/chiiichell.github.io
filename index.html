@@ -2,19 +2,66 @@
 <html lang="ja">
   <head>
     <meta charset="utf-8">
+    <style src="css/otter.css"></style>
     <style src="css/style.css"></style>
   </head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function () {
+      var userAgent = window.navigator.userAgent.toLowerCase();
+      $('span#userAgent').text(userAgent);
+    });
+  </script>
   <body>
+    <div class="bg bg1" id="bg1">
+      <p>oshushi</p>
+    </div>
+    <div class="bg bg2" id="bg2">
+      <p>oshushi</p>
+    </div>
+    <div class="bg bg3" id="bg3">
+      <p>oshushi</p>
+    </div>
     <header>
       <h1></h1>
       <nav>
         <ul>
-          <li><a href="#">about</a></li>
-          <li><a href="#">skills</a></li>
-          <li><a href="#">works</a></li>
-          <li><a href="#">contact</a></li>
+          <li><a href="#about">about</a></li>
+          <li><a href="#skills">skills</a></li>
+          <li><a href="#works">works</a></li>
+          <li><a href="#contact">contact</a></li>
+          <li><a href="#"> <img src="#" alt="twitter"></a></li>
+          <li><a href="#"> <img src="#" alt="facebook"></a></li>
         </ul>
       </nav>
     </header>
+    <div><img src="#" alt="twitter">
+      <h2>misawa chizuru</h2>
+      <div>
+        <p>front-end developer @ BASE, Inc.</p>
+      </div>
+      <div>
+        <ul>
+          <li>HTML/CSS</li>
+          <li>Sass</li>
+          <li>JavaScript</li>
+          <li>jQuery</li>
+          <li>responsive design</li>
+          <li>drip coffee brewing</li>
+        </ul>
+        <ul>
+          <li>atom</li>
+          <li>github</li>
+          <li>gulp</li>
+          <li>sketch</li>
+        </ul>
+      </div>
+    </div>
+    <ul>
+      <li><a href="http://iori-matsudaira.com/"><img src="">
+          <p>iori matsudaira</p></a></li>
+      <li><a href="https://design.thebase.in/detail/31"><img src="">
+          <p>photoholic</p></a></li>
+    </ul><a>https://mailthis.to/</a>
   </body>
 </html>
