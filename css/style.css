@@ -1,6 +1,26 @@
-html, body {
+html,
+body {
   margin: 0;
   padding: 0; }
+
+#button {
+  background: #456bd1; }
+
+.button-class {
+  background: #456bd1;
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  font-size: 30px;
+  width: 150px;
+  height: 100px;
+  border-radius: 10px 10px 10px 10px; }
+
+.button-class:hover {
+  background: #FFFFFF;
+  color: #456bd1; }
+
+#bg1 {
+  background-color: red; }
 
 .bg1 {
   background-image: url("/img/harrods.jpg"); }
@@ -12,23 +32,23 @@ html, body {
   background-image: url("/img/harrods.jpg"); }
 
 .bg {
-  width: 100%;
-  min-height: 800px;
-  color: #fff;
-  display: table;
   background-position: center center;
   background-repeat: no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover; }
+  background-size: cover;
+  color: #fff;
+  display: table;
+  min-height: 800px;
+  width: 100%; }
 
 .bg > * {
   display: table-cell;
-  vertical-align: middle;
-  text-align: center;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  text-align: center;
+  vertical-align: middle; }
 
 @media screen and (min-width: 768px) {
   .bg {
